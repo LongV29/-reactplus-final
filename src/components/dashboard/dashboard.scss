@@ -1,0 +1,120 @@
+.dashboard {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    background: rgba(244, 194, 127, 0.67);
+
+    .avatar {
+        padding-top: 50px;
+
+        img {
+            height: 80px;
+            width: 127px;
+        }
+        .name {
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: 0.05em;
+            text-align: center;
+        }
+        .email {
+            font-family: Poppins;
+            font-size: 10px;
+            font-weight: 500;
+            line-height: 12px;
+            letter-spacing: 0.05em;
+            text-align: center;
+            color: #d8605b;
+        }
+        .log-out {
+            width: 89px;
+            height: 22px;
+            background: #f4c27f;
+            border-radius: 50px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            margin-bottom: 34px;
+            a {
+                text-decoration: none;
+                color: #000;
+            }
+        }
+    }
+    .dash {
+        background-color: white;
+        padding-top: 32px;
+        .clock {
+            width: 120px;
+            height: 120px;
+        }
+        h4 {
+            margin: 0;
+            padding-bottom: 14px;
+        }
+        h2 {
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 21px;
+            letter-spacing: 0.06em;
+            text-align: left;
+            margin: 0;
+            padding-bottom: 20px;
+            padding-left: 20px;
+        }
+
+        .list {
+            margin: 0 auto 15px;
+            width: 323px;
+            height: 248px;
+            background: #ffffff;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+            border-radius: 24px;
+            text-align: center;
+            padding-bottom: 20px;
+            .list-dash {
+                padding-top: 26px;
+                display: flex;
+                margin: 0 auto;
+                text-align: center;
+                padding-bottom: 30px;
+                .list-dash_left {
+                    font-family: Poppins;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 16px;
+                    letter-spacing: 0.06em;
+                    text-align: left;
+                    flex: 1;
+                    padding-left: 20px;
+                }
+                .list-dash_right {
+                    width: 24px;
+                    height: 24px;
+                    cursor: pointer;
+                    flex: 1;
+                    text-align: right;
+                    padding-right: 20px;
+                }
+            }
+            .list-work {
+                width: 300px;
+                height: 180px;
+                text-align: left;
+                overflow-y: scroll;
+
+                .completed,
+                .uncompleted {
+                    display: flex;
+                    padding-left: 20px;
+                    cursor: pointer;
+                    margin-bottom: 21px;
+                }
+            }
+        }
+    }
+}
